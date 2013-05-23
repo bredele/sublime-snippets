@@ -1,0 +1,28 @@
+<snippet>
+	<content><![CDATA[
+define([
+	'Backbone',
+	'Underscore'${2}
+], function( Backbone, _${3} ){
+	
+	var ${1:view} = Backbone.View.extend({
+		${6}
+		${4:initialize : function(){
+
+		\},}
+
+		${5:render : function(){
+
+		\}}
+
+	});
+
+	return ${1:view};
+
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>b:v</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

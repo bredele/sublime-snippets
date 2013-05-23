@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+var ${1:Greeter} = (function () {
+
+    function ${1:Greeter}() {
+        //constructor
+    }
+
+    ${2:${1:Greeter}.prototype.${3:greet} = function () \{
+        ${4://do something}
+    \};}
+
+    return ${1:Greeter};
+
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>class</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

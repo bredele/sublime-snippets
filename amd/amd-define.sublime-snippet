@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+define(${1:[
+	'${2:module}'${3}
+],} function( ${4:Module}${5} ){
+
+	${6://body}
+	
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>def</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

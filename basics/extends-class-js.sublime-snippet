@@ -1,0 +1,34 @@
+<snippet>
+	<content><![CDATA[
+
+//should  be in the beginning of its respective scope (or in utils)
+var __extends = this.__extends || function (d, b) {
+    function __() { this.constructor = d; }
+    __.prototype = b.prototype;
+    d.prototype = new __();
+};
+
+var ${1:Child} = (function (_super) {
+
+    __extends(${1:Child}, _super);
+
+    function ${1:Child}() {
+
+        _super.apply(this, arguments);
+
+    }
+
+    ${3:${1:Child}.prototype.${4:method} = function () \{
+        ${5://do something}
+    \};}
+
+    return ${1:Child};
+
+})(${2:Parent});
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>extends</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
