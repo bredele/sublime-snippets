@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+
+/**
+ * Expose '${1:Mod}'
+ */
+
+module.exports = ${1};
+
+
+/**
+ * ${1} constructor.
+ * @api public
+ */
+
+function ${1}() {
+  ${2://do something}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>mod</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
